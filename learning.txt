@@ -1,0 +1,13 @@
+22-9-26 - learning
+
+    Math library
+    Range library
+    Round library
+    Date and Time library
+    Calendar Library
+    converting between number systems
+
+    Collections
+    Iter tools (iterations)
+    Operator Library
+

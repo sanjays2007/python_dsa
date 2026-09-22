@@ -1,0 +1,24 @@
+*Variable - Size Sliding Window Template*
+
+
+def sliding_window(arr, condition):
+    left = 0
+    window_state = {}   # dict / Counter / scalar — depends on problem
+    result = 0          # use float('inf') for "minimum" problems
+
+    for right in range(len(arr)):
+        # 1. EXPAND: add arr[right] to window state
+        #    e.g. window_state[arr[right]] = window_state.get(arr[right], 0) + 1
+
+        # 2. SHRINK: while window is INVALID, remove from left
+        while is_invalid(window_state, condition):
+            # remove arr[left] from window state
+            left += 1
+
+        # 3. UPDATE: window [left, right] is now valid
+        result = max(result, right - left + 1)  # or min(...)
+
+    return result
+
+
+
