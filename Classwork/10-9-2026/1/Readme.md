@@ -1,0 +1,1 @@
+Print all the elements at odd index in the given array

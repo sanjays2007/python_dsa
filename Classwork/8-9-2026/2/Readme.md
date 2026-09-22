@@ -1,0 +1,1 @@
+Given n employ ids determain wethere all ids are unique print yes if every id occurs ones otherwise print no.

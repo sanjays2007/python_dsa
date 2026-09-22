@@ -1,0 +1,1 @@
+Count the occurence of all the element in the array
