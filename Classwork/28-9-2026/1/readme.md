@@ -1,0 +1,1 @@
+get a input string from the user and print the index along with its index

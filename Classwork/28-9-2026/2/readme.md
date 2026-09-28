@@ -1,0 +1,1 @@
+check whether the given input is palindrome or not with linear time complexity
