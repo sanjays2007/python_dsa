@@ -1,0 +1,1 @@
+count the no of vowels and consonants int he given string the sting will contain only alphabets but it can have both uppercase and lower case in the given string
